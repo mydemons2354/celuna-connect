@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celuna | Premium Minecraft Bedrock Bridge</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">🌌 Celuna</a>
+            <nav class="nav-links">
+                <a href="#how-to-join">How to Join</a>
+                <a href="#features">Features</a>
+                <a href="#faq">FAQ</a>
+            </nav>
+            <div class="nav-btn-group">
+                <a href="https://discord.gg" target="_blank" class="nav-btn discord-btn">Discord</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <span class="badge">🚀 The Ultimate Console Bridge</span>
+            <h1>Keeping the Bedrock Community Connected</h1>
+            <p class="subtitle">Celuna offers an easy, console-friendly way to join custom Minecraft Bedrock servers. No external apps, DNS hacks, or complicated setups required.</p>
+            
+            <!-- Quick Links Buttons -->
+            <div class="hero-actions">
+                <a href="#how-to-join" class="btn btn-primary">Get Started Now</a>
+                <a href="https://youtube.com" target="_blank" class="btn btn-secondary">▶ Watch Tutorial</a>
+            </div>
+        </div>
+
+        <!-- Live Server Status Widget -->
+        <div class="status-card">
+            <div class="status-header">
+                <span class="status-indicator online"></span>
+                <h3>System Status</h3>
+            </div>
+            <div class="status-details">
+                <div class="status-item">
+                    <span class="label">Bridge Status:</span>
+                    <span class="value success">ONLINE</span>
+                </div>
+                <div class="status-item">
+                    <span class="label">Connected Players:</span>
+                    <span class="value" id="playerCount">1,432</span>
+                </div>
+                <div class="status-item">
+                    <span class="label">Global Latency:</span>
+                    <span class="value pulse-text">14ms</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How To Join Section -->
+    <section id="how-to-join" class="section section-alt">
+        <h2 class="section-title">How To Join In 3 Seconds</h2>
+        <p class="section-subtitle">Play your favorite custom servers straight from your console friends list.</p>
+        
+        <div class="join-box">
+            <div class="step">
+                <div class="step-num">1</div>
+                <p>Open Minecraft on your Switch, Xbox, or PlayStation.</p>
+            </div>
+            <div class="step">
+                <div class="step-num">2</div>
+                <p>Add the cross-play account below as your Xbox Live friend.</p>
+            </div>
+            <div class="step">
+                <div class="step-num">3</div>
+                <p>Go to your "Friends" tab in-game and click join!</p>
+            </div>
+
+            <div class="gamertag-panel">
+                <p class="panel-title">Copy Gamertag</p>
+                <div class="gamertag-container">
+                    <span class="gamertag" id="tag">CelunaCon</span>
+                    <button class="btn-copy" id="copyBtn">Copy Tag</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Grid -->
+    <section id="features" class="section">
+        <h2 class="section-title">Why Choose Celuna?</h2>
+        <p class="section-subtitle">Engineered for the absolute best performance and user experience.</p>
+        
+        <div class="grid">
+            <div class="card">
+                <div class="card-icon">💥</div>
+                <h3>Zero Ads</h3>
+                <p>No annoying popups, screen blockers, or premium unlock walls blocking your gameplay.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">✨</div>
+                <h3>Stupidly Simple</h3>
+                <p>No phone apps required. No changing your home Wi-Fi settings or router DNS menus.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">⚡</div>
+                <h3>Lightning Fast</h3>
+                <p>Running on high-bandwidth, global servers to ensure zero rubber-banding and low ping.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">🔄</div>
+                <h3>99.9% Uptime</h3>
+                <p>Our automation bots are constantly monitored and online 24/7/365 to keep you connected.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Accordion Section -->
+    <section id="faq" class="section section-alt">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-subtitle">Got questions? We have answers.</p>
+
+        <div class="accordion">
+            <div class="accordion-item">
+                <button class="accordion-header">Is this safe to use? <span>+</span></button>
+                <div class="accordion-content">
+                    <p>Yes, absolutely! Celuna utilizes official Minecraft friend network protocols. It does not modify your console, access account credentials, or break Xbox/PlayStation terms of service.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-header">Which consoles are supported? <span>+</span></button>
+                <div class="accordion-content">
+                    <p>Celuna supports Nintendo Switch, Xbox One, Xbox Series X/S, PlayStation 4, and PlayStation 5.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-header">Why is the bot showing offline? <span>+</span></button>
+                <div class="accordion-content">
+                    <p>If the friend account appears offline, it is likely undergoing a quick automated restart. Check our Discord server link below for live status notifications and dynamic updates.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Footer -->
+    <footer class="footer">
+        <h3>Join the Community Revolution Today</h3>
+        <p>Chat with thousands of players, participate in community events, and get instant technical support.</p>
+        <div class="footer-socials">
+            <a href="https://discord.gg" target="_blank" class="social-link dc">Discord Guild</a>
+            <a href="https://youtube.com" target="_blank" class="social-link yt">YouTube Channel</a>
+        </div>
+        <p class="copyright">&copy; 2026 Celuna Network. Not affiliated with Mojang Studios or Microsoft.</p>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTopBtn" title="Go to top">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
+  
